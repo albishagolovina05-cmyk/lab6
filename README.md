@@ -62,6 +62,7 @@
 ## Схема рекурсивного спуска для парсера
 
 
+<img width="1162" height="1353" alt="image" src="https://github.com/user-attachments/assets/c09b3531-6243-44d5-b845-dfef9a3d3c45" />
 
 Функции парсера:
 - `E()`  → вызывает `T()` и `A()`
