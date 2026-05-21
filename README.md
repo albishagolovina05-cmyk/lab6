@@ -104,6 +104,7 @@
 | 10  | Целое без знака    | 2        | строка 1, 21-21 |
 | 7   | Знак остатка       | %        | строка 1, 23-23 |
 | 3   | Идентификатор      | y        | строка 1, 25-25 |
+
 <img width="675" height="649" alt="image" src="https://github.com/user-attachments/assets/7daae643-319d-40e9-a291-f5e71ab3c169" />
 
 
@@ -120,6 +121,7 @@
 | 3   | Идентификатор      | b        | строка 1, 5-5  |
 | -1  | Недопустимый символ | $       | строка 1, 7-7  |
 | 10  | Целое без знака    | 7        | строка 1, 9-9  |
+
 <img width="783" height="506" alt="image" src="https://github.com/user-attachments/assets/d46c3368-fc53-493e-91ae-a7790e99756a" />
 
 ---
@@ -130,12 +132,14 @@
 **Вход:** `(a + b) * c - 5 / (d - 3)`  
 **Результат:**  
 `Синтаксический анализ завершен без ошибок`
+
 <img width="653" height="370" alt="image" src="https://github.com/user-attachments/assets/bf459ea8-ebeb-4b98-b2a1-926f3a8d35c9" />
 
 
 **Вход:** `a + * b /`  
 **Ошибка:**  
 `Ожидалось число, идентификатор или открывающая скобка (`. Встречено `*`
+
 <img width="608" height="442" alt="image" src="https://github.com/user-attachments/assets/08bdf296-0ca6-4b8d-a4bd-4e7b25c2799a" />
 
 
@@ -143,6 +147,7 @@
 **Сообщения:**
 - Лишняя скобка `)` в конце выражения
 - Недопустимый символ `@`
+- 
 <img width="654" height="425" alt="image" src="https://github.com/user-attachments/assets/bcd941b7-bc9f-4093-901b-e527aabcc02e" />
 
 
@@ -150,6 +155,7 @@
 **Вход:** `(a + b * c`  
 **Ошибка:**  
 `Ожидалось закрывающая скобка )`. Встречено `конец строки`
+
 <img width="582" height="382" alt="image" src="https://github.com/user-attachments/assets/51fcd1dd-2c8c-438c-bf9d-e36465dcd1bc" />
 
 ---
@@ -167,6 +173,7 @@
 |-----|----------|------|------|-----------|
 | 1   | +        | x    | y    | T1        |
 | 2   | *        | T1   | z    | T2        |
+
 <img width="533" height="363" alt="image" src="https://github.com/user-attachments/assets/d04dbf69-a542-40ac-911c-bfe0fc65a1d8" />
 
 ### Пример №2 
@@ -180,6 +187,7 @@
 | 2   | %        | d    | e    | T2        |
 | 3   | -        | a    | T1   | T3        |
 | 4   | +        | T3   | T2   | T4        |
+
 <img width="508" height="420" alt="image" src="https://github.com/user-attachments/assets/d3e190aa-d686-4a00-bc57-8070a880cc8d" />
 
 ### Пример №3 
@@ -192,6 +200,7 @@
 | 1   | +        | 3    | 2    | T1        |
 | 2   | *        | 10   | T1   | T2        |
 | 3   | %        | T2   | 4    | T3        |
+
 <img width="541" height="388" alt="image" src="https://github.com/user-attachments/assets/7fabf65f-a43b-4d39-9554-a618641a5368" />
 
 ---
